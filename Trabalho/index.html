@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Viagens Espaciais</title>
+  </head>
+  <body>
+	
+	<section class="container">
+		<header style="width:100%;">
+		<nav>
+			<div class="menu" align="center" style="padding-left:2%; background:#87CEFA">
+			<br>
+				<a href="index.html">Corrida Espacial -</a>
+				<a href="#">EUA -</a>
+				<a href="#">URSS -</a>
+				<a href="#">Projeto Marte -</a>
+				<a href="#">Estação Espacial Internacional </a>		
+			</div>		
+		</nav>		
+		<hr>
+		<header style="width:100%; background:#FFFFE0">
+		<table>
+			<div style="background:#ddd;">
+			<div class="row">
+			<div class="col-md-3 border">
+				<img src="img/img1.jpg" class="img-fluid;" width="100%" height="350px"/>
+				</div>
+				<div class="col-md-9 border" style="background:#fff; height:350px;"> As viagens espaciais sempre encantam o mundo. Explorar o espaço sideral é fascinante, e a cada novidade ficamos animados com o que pode ser descoberto. Russos e norte-americanos protagonizaram o início dessa história,
+				O fim da Segunda Guerra Mundial polarizou os Estados Unidos e a União Soviética como superpotências. Dessa forma, os conflitos entre esses dois países deu início à uma corrida armamentista chamada Guerra Fria. Com a busca de superioridade em vários aspectos, as duas nações também começaram uma corrida espacial. Assim, em 4 de outubro de 1957, a URSS lançou o Sputnik I. O Sputnik I foi lançado no Cazaquistão, e foi o primeiro satélite artificial a orbitar a Terra. Um mês depois, lançou o Sputnik II, que carregava Laika, uma cadela que nunca mais retornou à Terra.
+				Como resultado, os Estados Unidos, poucos meses após o lançamento, começou seu programa espacial com o lançamento do Explorer. O satélite artificial foi uma resposta à histeria coletiva causada pelo lançamento do projeto russo. Essa “histeria” deu origem à criação da NASA, em 1958.
+				Todavia, em 1961, a URSS pulou na frente na corrida espacial e lançou a Vostok I. Esta, que orbitou a Terra durante 1 hora, com Yuri Gagarin como tripulante. Foi a primeira espaçonave a ter um humano.
+				Posteriormente, os EUA lançaram o astronauta Alan Shepard ao espaço em um voo apenas sub-orbital. Porém, somente 8 anos depois de lançar o primeiro homem ao espaço que as viagens espaciais atingiriam outro nível.</div>
+			</table>
+			</div>
+		</div>	
+		</header>
+		<br>
+		<hr>
+		<br>
+		<main>
+				<img src="img/img2.jpg" width="20%" height="200px"></div>
+				<img src="img/img3.jpg" width="20%" height="200px"/></div>
+				<img src="img/img4.jpg" width="20%" height="200px"/></div>
+				<img src="img/img5.jpg" width="20%" height="200px"/></div>
+				<br>
+				<br>
+				<br>
+			<p>Portanto em 20 de julho de 1969, os EUA lançou a Apollo XI rumo à Lua. 
+			A Apollo XI foi para o espaço com os astronautas Neil Armstrong, Michael Collins e Edwin Aldrin Jr como tripulantes. 
+			Foi a primeira vez que tripulantes pisaram no “solo” de outro corpo celeste.</p>					
+			</div> 
+		</main>	
+			<br>
+		</div>
+		<hr>
+		<main>
+			<h2 style="margin-left:center;">Projeto Colonização do Planeta Marte</h2>
+			
+			<div class="conteudo">A colonização de Marte refere-se à proposta de instalação de assentamentos humanos permanentes no planeta Marte.
+Tal proposta é objeto de estudo sério. Depois da Terra, Marte é o planeta mais habitável do sistema solar e tem sido considerado como um dos principais candidatos à colonização humana extensiva e permanente, 
+não apenas por estar mais próximo ao nosso planeta mas também pelas condições da sua superfície - que são mais semelhantes às da Terra, comparativamente a outros planetas do Sistema Solar -, destacando-se, 
+por exemplo, a disponibilidade de águas superficiais, embora congeladas, em Marte, mas em 2018 foi descoberto água em estado líquido embaixo do gelo de marte. Embora a Lua, devido à sua proximidade, tenha sido proposta como o primeiro local para a colonização humana, 
+a gravidade lunar corresponde apenas a 16% da gravidade da Terra, enquanto a gravidade de Marte é mais substancial: corresponde a 38%. Há mais água presente em Marte do que na Lua, e Marte tem uma atmosfera tênue. Esses fatores dão a Marte maior capacidade potencial de abrigar a vida orgânica 
+e a colonização humana.
+			</div>
+			<div style="text-align:center;">
+				<img src="img/img6.jpg" alt="Solo de Marte" title="Solo de Marte" width="24.2%" height="24.2%"/>
+			</div>		
+		</main>
+		<hr>
+		
+		<h1 style="margin:center; width:50% height:200px; background:#fff">Cadastro</h1>
+		
+		<form name="teste" method="get" style="width:50%;">
+			<label for="name">Digite o seu nome:</label>
+			<input type="text" name="name" id="idNome" class="form-control">
+			
+			<label for="email" style="padding-top:2%;">Digite seu email:</label>
+			<input type="email" name="email" id="emailDigitado" class="form-control">
+			
+			<div style="padding-top:2%;">
+				<input type="submit" name="botao" id="idBotao"class="btn btn-danger" onclick="mensagem();" value="Enviar">
+							
+			</div>		
+		</form>
+		
+		<script>
+			function mensagem() {
+			var valorNome = document.getElementById("idNome").value;
+			alert("Bem vinda(o),  " + valorNome);
+			}	
+		
+		</script>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
